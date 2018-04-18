@@ -1,0 +1,21 @@
+{
+  "name": "TestConnection",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "description": "activity description",
+ "title": "OracleDB",
+  "ref": "github.com/prajaktapandit/OracleConn", 
+  "author":"prpandit@tibco.com",
+  "inputs":[
+    {
+      "name": "SqlURL",
+      "type": "string"
+    }
+	],
+  "outputs": [
+    {
+      "name": "output",
+      "type": "string"
+    }
+  ]
+}
