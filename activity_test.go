@@ -48,7 +48,7 @@ func TestEval(t *testing.T) {
 
 	//setup attrs
 	
-	tc.SetInput("SqlURL", "SYSTEM/123456@localhost:1521/xe")
+	tc.SetInput("SqlURL", "SYSTEM/123456@127.0.0.1:1521/xe")
 		
 	
 	act.Eval(tc)
