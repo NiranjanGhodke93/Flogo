@@ -33,9 +33,11 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error)  {
 
 	
 	sqlurl := context.GetInput("SqlURL").(string)
+	log.Debugf("sqlurl");
 	
 	
     db, err := sql.Open("oci8",sqlurl)
+	log.Debugf("Connection Successfull");
     if err != nil {
          log.Debugf("Connection Refused");
         return
@@ -52,3 +54,4 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error)  {
 	context.SetOutput("output","")
 	return true, nil
 }
+
