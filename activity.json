@@ -4,7 +4,7 @@
   "type": "flogo:activity",
   "description": "activity description",
  "title": "OracleDB",
-  "ref": "github.com/prajaktapandit/OracleConn", 
+  "ref": "github.com/prajaktapandit/OracleConn/activity", 
   "author":"prpandit@tibco.com",
   "inputs":[
     {
