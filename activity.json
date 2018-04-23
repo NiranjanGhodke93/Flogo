@@ -1,5 +1,5 @@
 {
-  "name": "OracleTest",
+  "name": "OracleConn",
   "version": "0.0.1",
   "type": "flogo:activity",
   "description": "activity description",
