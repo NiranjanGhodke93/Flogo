@@ -1,4 +1,4 @@
-package OracleTest
+package OracleConn
 
 import (
     
