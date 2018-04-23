@@ -1,4 +1,4 @@
-package TestConnection
+package OracleTest
 
 import (
 	"io/ioutil"
