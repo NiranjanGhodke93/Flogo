@@ -1,10 +1,10 @@
 {
-  "name": "TestConnection",
+  "name": "OracleTest",
   "version": "0.0.1",
   "type": "flogo:activity",
   "description": "activity description",
  "title": "OracleDB",
-  "ref": "github.com/prajaktapandit/OracleConn", 
+  "ref": "github.com/NiranjanGhodke93/Flogo", 
   "author":"prpandit@tibco.com",
   "inputs":[
     {
