@@ -1,4 +1,4 @@
-package OracleConn
+package Flogo
 
 import (
 	"io/ioutil"
